@@ -12,7 +12,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"go.bug.st/serial"
+	"github.com/TommyLeng/go-serial"
 )
 
 func nativeGetDetailedPortsList() ([]*PortDetails, error) {
